@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #eafaf1;
+}
+
+.h1 {
+  font-size: 80px;
+  line-height: 1;
+  margin-bottom: 1rem;
+  letter-spacing: -5px;
+  font-weight: 700;
+}
+.block-pricing.recommended .block-banner {
+  border: none;
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+}
